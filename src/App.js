@@ -9,7 +9,7 @@ import UgcGallery from "./components/UgcGallery";
 
 function App() {
   //Instance ID
-  let InstanceId_Widget = "1015042";
+  let InstanceId_Widget = "";
   let InstanceId_QA = "";
   let InstanceId_SEO = "";
   let InstanceId_Carousel = "";
@@ -38,7 +38,7 @@ function App() {
           <Widget
             instanceid={InstanceId_Widget}
             productid={ProductId}
-            active="true"
+            active="false"
             heading="Reviews Widget"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
@@ -86,7 +86,7 @@ function App() {
           <StarRating
             instanceid={InstanceId_StarRating}
             productid={ProductId}
-            active="false"
+            active="true"
             heading="Star Rating"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
