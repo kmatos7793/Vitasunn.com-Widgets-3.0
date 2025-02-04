@@ -9,17 +9,17 @@ import UgcGallery from "./components/UgcGallery";
 
 function App() {
   //Instance ID
-  let InstanceId_Widget = "";
+  let InstanceId_Widget = "847793";
   let InstanceId_QA = "";
   let InstanceId_SEO = "";
   let InstanceId_Carousel = "";
-  let InstanceId_StarRating = "1015043";
+  let InstanceId_StarRating = "1022799";
   let InstanceId_PromotedProd = "";
   let InstanceId_UgcGallery = "";
   let InstanceId_ReviewsTab = "";
 
   //Product ID
-  let ProductId = "";
+  let ProductId = "2482826969146";
 
   //Clipboard text here.
   let ClipBoardHeading = "Follow these steps to add this";
@@ -38,7 +38,7 @@ function App() {
           <Widget
             instanceid={InstanceId_Widget}
             productid={ProductId}
-            active="false"
+            active="true"
             heading="Reviews Widget"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
@@ -62,7 +62,7 @@ function App() {
           <SEO
             instanceid={InstanceId_SEO}
             productid={ProductId}
-            active="true"
+            active="false"
             heading="SEO"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
@@ -86,7 +86,7 @@ function App() {
           <StarRating
             instanceid={InstanceId_StarRating}
             productid={ProductId}
-            active="true"
+            active="false"
             heading="Star Rating"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
