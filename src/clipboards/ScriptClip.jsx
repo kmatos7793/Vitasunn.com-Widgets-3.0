@@ -3,7 +3,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 
 function ScriptClipBoard() {
   const [value, setValue] = useState(`
-  <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/gLlJ6NZXqOUyKV3Qd5TlpRe6jWUKvSD2NCqyB7Cs" async></script>
+  <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/MOmKz44oWFWy2h1wBh6e96L7XwGBY95AJQxAbhhx" async></script>
     `);
   const [isCopied, setCopied] = useState(false);
 
